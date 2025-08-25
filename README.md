@@ -55,7 +55,7 @@ drone_env\Scripts\activate     # Windows
 
 # Установка основных зависимостей
 pip install --upgrade pip
-pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 pip install pillow opencv-python clipPy numpy scikit-learn
 
 # Альтернативная установка CLIP (если возникают проблемы)
